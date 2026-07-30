@@ -1,0 +1,37 @@
+[
+  {
+    "role": "Python Development Intern",
+    "company": "TCSTEP",
+    "duration": "May 2025 - August 2025",
+    "skills": [
+      "Flask",
+      "MySQL",
+      "OOP",
+      "REST APIs"
+    ],
+    "points": [
+      "Built performant Flask REST APIs to handle user authentication, database operations, and data analytics requests.",
+      "Designed and integrated relational MySQL database schemas, writing optimized SQL queries and reducing latencies.",
+      "Applied robust Object-Oriented Programming (OOP) design patterns, ensuring clean, scalable, and maintainable codebases.",
+      "Implemented comprehensive exception handling and logging workflows, securing high reliability and application uptime."
+    ]
+  },
+  {
+    "role": "DevOps Training",
+    "company": "Coding Blocks",
+    "duration": "June 2025 - August 2025",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Jenkins",
+      "Git",
+      "CI/CD"
+    ],
+    "points": [
+      "Deployed and managed scalable web applications on cloud infrastructure using AWS and cloud instances.",
+      "Containerized backend microservices using Docker, establishing standard configurations across dev and production.",
+      "Designed and built automated build and test pipelines using Jenkins, streamlining CI/CD processes.",
+      "Managed version control, collaborative code branch merges, and release deployments utilizing Git and GitHub."
+    ]
+  }
+]

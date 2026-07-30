@@ -1,0 +1,45 @@
+[
+  {
+    "category": "Programming",
+    "items": [
+      "Python",
+      "SQL",
+      "JavaScript"
+    ]
+  },
+  {
+    "category": "Data Analytics",
+    "items": [
+      "Excel",
+      "Power BI",
+      "Pandas",
+      "NumPy",
+      "Matplotlib"
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      "Flask",
+      "REST API"
+    ]
+  },
+  {
+    "category": "Database",
+    "items": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "items": [
+      "AWS",
+      "Azure",
+      "Docker",
+      "Git",
+      "GitLab CI/CD"
+    ]
+  }
+]

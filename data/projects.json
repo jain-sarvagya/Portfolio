@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Customer Behavior Analysis",
+    "description": "Customer Shopping Behavior Analysis using Python, PostgreSQL, SQL, and Power BI. This project performs end-to-end data analysis, including data cleaning, feature engineering, SQL-based business insights, and an interactive Power BI dashboard to analyze customer purchasing patterns, product performance, subscription behavior, and revenue trends.",
+    "techStack": [
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "Power BI"
+    ],
+    "image": "/projects/1785399541085_screenshot_2026-07-30_104844.png",
+    "githubLink": "https://github.com/jain-sarvagya/Customer_Behavior_Analysis",
+    "liveLink": "",
+    "featured": true,
+    "status": "published",
+    "order": 1
+  },
+  {
+    "id": "smart-sheet-ai",
+    "title": "Smart-Sheet AI",
+    "description": "An AI-powered spreadsheet application that enables users to interact with sheets using natural language, execute formulas automatically, and perform smart data extraction.",
+    "techStack": [
+      "Flask",
+      "Python",
+      "React",
+      "Tailwind CSS",
+      "Gemini API"
+    ],
+    "image": "/projects/smart_sheet_ai.png",
+    "githubLink": "https://github.com/jain-sarvagya/Smart-Sheet-AI-Flask",
+    "liveLink": "https://smart-sheet-ai.demo",
+    "featured": true,
+    "status": "published",
+    "order": 2
+  }
+]

@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --text-muted: #94a3b8; /* slate-400 */
+  --text-dim: #475569; /* slate-500 */
+  --border: rgba(255, 255, 255, 0.08);
+  --card-bg: #050505;
+}
+
+.light {
+  --background: #ffffff;
+  --foreground: #000000;
+  --text-muted: #374151; /* gray-700 */
+  --text-dim: #6b7280; /* gray-500 */
+  --border: rgba(0, 0, 0, 0.12); /* Darker border for light mode */
+  --card-bg: #f9fafb; /* gray-50 */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Prevents navbar overlap */
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
+  }
+
+  /* Premium slim scrollbar for modern browsers */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 128, 128, 0.4);
+  }
+}
+
+/* ===================================================
+   Light Mode Theme CSS Specificity Overrides (Top-level)
+   =================================================== */
+
+/* Overwrite page background containers to pure white */
+.light,
+.light body,
+.light aside,
+.light header,
+.light section,
+.light .bg-black,
+.light .bg-slate-950,
+.light .bg-black\/95 {
+  background-color: var(--background) !important;
+  transition: background-color 0.4s ease, border-color 0.4s ease !important;
+}
+
+/* Overwrite card container elements to gray-50 */
+.light .bg-\[\#050505\],
+.light .bg-white\/\[0\.02\],
+.light .bg-slate-950\/40,
+.light .bg-slate-950\/60 {
+  background-color: var(--card-bg) !important;
+  transition: background-color 0.4s ease !important;
+}
+
+/* Overwrite headings to black */
+.light .text-white,
+.light .text-slate-100,
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6 {
+  color: var(--foreground) !important;
+  transition: color 0.4s ease !important;
+}
+
+/* Overwrite muted texts to gray-700 */
+.light .text-slate-300,
+.light .text-slate-400,
+.light .text-slate-200 {
+  color: var(--text-muted) !important;
+  transition: color 0.4s ease !important;
+}
+
+/* Overwrite dim texts to gray-500 */
+.light .text-slate-500,
+.light .text-slate-600,
+.light .text-slate-700 {
+  color: var(--text-dim) !important;
+  transition: color 0.4s ease !important;
+}
+
+/* Overwrite outline borders to gray-12% */
+.light .border-white\/\[0\.08\],
+.light .border-white\/10,
+.light .border-white\/20,
+.light .border-white\/\[0\.06\],
+.light .border-white\/\[0\.04\],
+.light .divide-white\/\[0\.08\] > *,
+.light .divide-white\/\[0\.06\] > * {
+  border-color: var(--border) !important;
+  transition: border-color 0.4s ease !important;
+}
+
+/* Match generic border/text utility classes specifically inside .light class */
+.light [class*="border-white"],
+.light [class*="border-current"],
+.light [class*="divide-white"] > * {
+  border-color: var(--border) !important;
+}
+
+.light [class*="text-slate-300"],
+.light [class*="text-slate-400"],
+.light [class*="text-slate-500"] {
+  color: var(--text-muted) !important;
+}
+
+.light [class*="text-slate-600"],
+.light [class*="text-slate-700"] {
+  color: var(--text-dim) !important;
+}
+
+/* Stroke variables applied to outline classes (Dark theme default) */
+.hero-outline-text {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.95) !important;
+  transition: -webkit-text-stroke 0.4s ease !important;
+}
+
+.experience-watermark-text {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.4) !important;
+  transition: -webkit-text-stroke 0.4s ease, opacity 0.4s ease !important;
+}
+
+/* Stroke & Opacity Overrides (Light theme active) */
+.light .hero-outline-text {
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.95) !important;
+}
+
+.light .experience-watermark-text {
+  opacity: 0.16 !important;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.45) !important;
+}
+
+.light .group:hover .experience-watermark-text {
+  opacity: 0.32 !important;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Premium monochrome glow utilities */
+.text-neon-glow {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.text-neon-purple {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.15), 0 0 30px rgba(255, 255, 255, 0.05);
+}
+
+/* Glassmorphism custom focus style */
+.glass-focus {
+  transition: all 0.3s ease;
+}
+.glass-focus:focus-within {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+/* Custom Cursor global hide (desktop hover devices only) */
+@media (hover: hover) {
+  .custom-cursor-active,
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+}

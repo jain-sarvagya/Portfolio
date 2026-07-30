@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "value": "2+",
+    "label": "MONTHS EXPERIENCE"
+  },
+  {
+    "id": "2",
+    "value": "02",
+    "label": "INTERNSHIPS"
+  },
+  {
+    "id": "3",
+    "value": "02",
+    "label": "PROJECTS SHIPPED"
+  }
+]
