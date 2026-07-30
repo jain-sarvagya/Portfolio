@@ -33,5 +33,19 @@
     "featured": true,
     "status": "published",
     "order": 2
+  },
+  {
+    "id": "3",
+    "title": "test1",
+    "description": "it is the testing part",
+    "techStack": [
+      "flask"
+    ],
+    "image": "/projects/1785418949440_a4_-_5.jpg",
+    "githubLink": "",
+    "liveLink": "",
+    "featured": true,
+    "status": "published",
+    "order": 3
   }
 ]
