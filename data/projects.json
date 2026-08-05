@@ -1,5 +1,23 @@
 [
   {
+    "id": "2",
+    "title": "Vendors Performance Analysis",
+    "description": "Engineered an end-to-end analytics pipeline by transforming raw procurement, inventory, and sales data into actionable business insights using SQL and Python.\nConducted exploratory data analysis, statistical analysis, and KPI evaluation to identify high-performing vendors, optimize inventory turnover, and improve profitability.\nDeveloped an interactive Power BI dashboard visualizing vendor performance, gross profit, sales trends, purchasing efficiency, and inventory metrics for executive decision-making.",
+    "techStack": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Pandas",
+      "NumPy"
+    ],
+    "image": "/projects/1785937077306_dashboard.png",
+    "githubLink": "https://github.com/jain-sarvagya/Vendor-Performance-Analysis.git",
+    "liveLink": "",
+    "featured": true,
+    "status": "published",
+    "order": 1
+  },
+  {
     "id": "1",
     "title": "Customer Behavior Analysis",
     "description": "Customer Shopping Behavior Analysis using Python, PostgreSQL, SQL, and Power BI. This project performs end-to-end data analysis, including data cleaning, feature engineering, SQL-based business insights, and an interactive Power BI dashboard to analyze customer purchasing patterns, product performance, subscription behavior, and revenue trends.",
@@ -14,7 +32,7 @@
     "liveLink": "",
     "featured": true,
     "status": "published",
-    "order": 1
+    "order": 2
   },
   {
     "id": "smart-sheet-ai",
@@ -32,6 +50,6 @@
     "liveLink": "https://smart-sheet-ai.demo",
     "featured": true,
     "status": "published",
-    "order": 2
+    "order": 3
   }
 ]
