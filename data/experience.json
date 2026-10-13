@@ -33,5 +33,22 @@
       "Designed and built automated build and test pipelines using Jenkins, streamlining CI/CD processes.",
       "Managed version control, collaborative code branch merges, and release deployments utilizing Git and GitHub."
     ]
+  },
+  {
+    "role": "Data Analyst",
+    "company": "BharatCares | In association with AICTE",
+    "location": "Remote",
+    "duration": "August 2026 – September 2026",
+    "skills": [
+      "Python",
+      "Power BI",
+      "SQL",
+      "Excel"
+    ],
+    "points": [
+      "• Completed a 6-week internship program focused on Data Analytics with AI.",
+      "• Gained exposure to data analytics concepts and AI applications through structured training.",
+      "• Strengthened foundational knowledge relevant to data-driven problem-solving and analytical workflows."
+    ]
   }
 ]
